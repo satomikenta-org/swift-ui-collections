@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var isAuthenticated = false;
+    @State var isAuthenticated = true;
     var body: some View {
         if isAuthenticated {
             TabViewLayout()

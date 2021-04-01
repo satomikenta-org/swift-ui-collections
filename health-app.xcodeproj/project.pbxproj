@@ -15,6 +15,8 @@
 		44C3942F26157F2C00AC9336 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C3942E26157F2C00AC9336 /* HomeView.swift */; };
 		44C3943226157F3600AC9336 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C3943126157F3600AC9336 /* SettingView.swift */; };
 		44C3943526157F7800AC9336 /* SigninView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C3943426157F7800AC9336 /* SigninView.swift */; };
+		44C3943A2615CA3800AC9336 /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C394392615CA3800AC9336 /* user.swift */; };
+		44C3943F2615CB8E00AC9336 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C3943E2615CB8E00AC9336 /* UserService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		44C3942E26157F2C00AC9336 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		44C3943126157F3600AC9336 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		44C3943426157F7800AC9336 /* SigninView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninView.swift; sourceTree = "<group>"; };
+		44C394392615CA3800AC9336 /* user.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
+		44C3943E2615CB8E00AC9336 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 		44C3941726157A2900AC9336 /* health-app */ = {
 			isa = PBXGroup;
 			children = (
+				44C3943D2615CB7B00AC9336 /* services */,
+				44C394382615CA2800AC9336 /* models */,
 				44C3942826157D1C00AC9336 /* components */,
 				44C3941826157A2900AC9336 /* health_appApp.swift */,
 				44C3941A26157A2900AC9336 /* ContentView.swift */,
@@ -87,6 +93,22 @@
 				44C3942926157D4100AC9336 /* TabViewLayout.swift */,
 			);
 			path = components;
+			sourceTree = "<group>";
+		};
+		44C394382615CA2800AC9336 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				44C394392615CA3800AC9336 /* user.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		44C3943D2615CB7B00AC9336 /* services */ = {
+			isa = PBXGroup;
+			children = (
+				44C3943E2615CB8E00AC9336 /* UserService.swift */,
+			);
+			path = services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +184,8 @@
 				44C3943226157F3600AC9336 /* SettingView.swift in Sources */,
 				44C3942F26157F2C00AC9336 /* HomeView.swift in Sources */,
 				44C3941B26157A2900AC9336 /* ContentView.swift in Sources */,
+				44C3943F2615CB8E00AC9336 /* UserService.swift in Sources */,
+				44C3943A2615CA3800AC9336 /* user.swift in Sources */,
 				44C3941926157A2900AC9336 /* health_appApp.swift in Sources */,
 				44C3943526157F7800AC9336 /* SigninView.swift in Sources */,
 			);
