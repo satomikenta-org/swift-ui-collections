@@ -8,9 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var isAuthenticated = false;
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        if isAuthenticated {
+            TabViewLayout()
+        } else {
+            SigninView()
+        }
     }
 }
 
