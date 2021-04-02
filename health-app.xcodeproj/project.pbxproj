@@ -18,6 +18,7 @@
 		44C3943A2615CA3800AC9336 /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C394392615CA3800AC9336 /* user.swift */; };
 		44C3943F2615CB8E00AC9336 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C3943E2615CB8E00AC9336 /* UserService.swift */; };
 		44C394442616C33E00AC9336 /* ProfileDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C394432616C33E00AC9336 /* ProfileDetailView.swift */; };
+		44C394472616CE7500AC9336 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C394462616CE7500AC9336 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		44C394392615CA3800AC9336 /* user.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
 		44C3943E2615CB8E00AC9336 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		44C394432616C33E00AC9336 /* ProfileDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDetailView.swift; sourceTree = "<group>"; };
+		44C394462616CE7500AC9336 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				44C3943126157F3600AC9336 /* SettingView.swift */,
 				44C3943426157F7800AC9336 /* SigninView.swift */,
 				44C394432616C33E00AC9336 /* ProfileDetailView.swift */,
+				44C394462616CE7500AC9336 /* WebView.swift */,
 			);
 			path = "health-app";
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44C3942A26157D4100AC9336 /* TabViewLayout.swift in Sources */,
+				44C394472616CE7500AC9336 /* WebView.swift in Sources */,
 				44C3943226157F3600AC9336 /* SettingView.swift in Sources */,
 				44C3942F26157F2C00AC9336 /* HomeView.swift in Sources */,
 				44C3941B26157A2900AC9336 /* ContentView.swift in Sources */,
